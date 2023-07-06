@@ -1,0 +1,149 @@
+/*Selector {Property: Value;}*/
+body{
+	background-color: black;
+}
+h2{
+	text-align: center;
+	color: #B28FF8;
+	font-family: DM Sans, sans-serif;
+	background-color: black;
+}
+/*__________________________NAVIGATION BAR__________________________*/
+.navbar{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	background-color: black;
+	/*border-radius: 5px; /* This selector rounds the border edges*/
+	text-align: center;
+	text-decoration: white;
+	height: 40px;
+	padding-left: 25px;
+}
+.navbuttons { /*This changes the nav text*/
+	color: #B28FF8;
+	font-family: DM Sans, sans-serif;
+	text-decoration: none; /*This removes the underline from text*/
+	padding-right: 20px;
+}
+/*__________________________CONTAINER ONE__________________________*/
+.containerOne{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+/*	border: 2px solid white;*/
+	background-color: black;
+	height: 350px;
+}
+.projectOne{
+	width: 450px;
+	height: 300px;
+	border: 2px solid #B28FF8;
+	background-image: url("project1.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.projectTwo{
+	width: 450px;
+	height: 300px;
+	border: 2px solid #B28FF8;
+	background-image: url("Coming Soon Moving Gif.gif");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.projectThree{
+	width: 450px;
+	height: 300px;
+	border: 2px solid #B28FF8;
+	background-image: url("project2.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+/*__________________________CONTAINER TWO__________________________*/
+.containerTwo{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+/*	border: 2px solid white;*/
+	background-color: black;
+	height: 350px;
+}
+.projectFour{
+	width: 450px;
+	height: 300px;
+	border: 2px solid #B28FF8;
+	background-image: url("Coming Soon Moving Gif.gif");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.projectFive{
+	width: 450px;
+	height: 300px;
+	border: 2px solid #B28FF8;
+	background-image: url("Coming Soon Moving Gif.gif");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.projectSix{
+	width: 450px;
+	height: 300px;
+	border: 2px solid #B28FF8;
+	background-image: url("Coming Soon Moving Gif.gif");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+/*__________________________CONTAINER THREE__________________________*/
+.containerThree{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+/*	border: 2px solid white;*/
+	background-color: black;
+	height: 350px;
+}
+.projectSeven{
+	width: 450px;
+	height: 300px;
+	border: 2px solid #B28FF8;
+	background-image: url("Coming Soon Moving Gif.gif");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.projectEight{
+	width: 450px;
+	height: 300px;
+	border: 2px solid #B28FF8;
+	background-image: url("Coming Soon Moving Gif.gif");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.projectNine{
+	width: 450px;
+	height: 300px;
+	border: 2px solid #B28FF8;
+	background-image: url("Coming Soon Moving Gif.gif");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+/*__________________________FOOTER__________________________*/
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: DM Sans, sans-serif;
+  padding: 10px;
+}

@@ -1,0 +1,57 @@
+/*Selector{Property: Value;}*/
+/*__________________________NAVIGATION BAR__________________________*/
+.navbar{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	background-color: black;
+	/*border-radius: 5px; /* This selector rounds the border edges*/
+	text-align: center;
+	text-decoration: white;
+	height: 40px;
+	padding-left: 25px;
+}
+.navbuttons { /*This changes the nav text*/
+	color: #B28FF8;
+	font-family: DM Sans, sans-serif;
+	text-decoration: none; /*This removes the underline from text*/
+	padding-right: 20px;
+}
+
+.containerone{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+/*	background-color: #B28FF8;*/
+background-image: linear-gradient(#B28FF8, black);
+	color: white;
+	font-family: DM Sans, sans-serif;
+	width: 100%;
+	
+}
+#resume{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	background-color: black;
+	color: white;
+	font-family: DM Sans, sans-serif;
+	width: 1200px;
+	padding: 20px;
+	margin-top: 20px;
+
+}
+h2 {
+	color: #B28FF8;
+}
+/*__________________________FOOTER__________________________*/
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: DM Sans, sans-serif;
+  padding: 10px;
+}
